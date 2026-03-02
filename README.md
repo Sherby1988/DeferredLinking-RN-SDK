@@ -17,26 +17,29 @@ Deferred deep linking lets you send a user to the right screen inside your app e
 
 ### 1. Add the package
 
-Copy the `sdk/` directory into your project (or publish it to a private registry):
+Install directly from GitHub — no local copy required:
 
-```
-my-rn-app/
-└── packages/
-    └── deferred-linking-sdk/
+```bash
+npm install Sherby1988/DeferredLinking-RN-SDK
+# or
+yarn add Sherby1988/DeferredLinking-RN-SDK
 ```
 
-Add it to `package.json`:
+To pin to a specific branch, tag, or commit:
+
+```bash
+npm install Sherby1988/DeferredLinking-RN-SDK#main
+npm install Sherby1988/DeferredLinking-RN-SDK#v1.0.0
+```
+
+Or declare it explicitly in `package.json`:
 
 ```json
 {
   "dependencies": {
-    "deferred-linking-sdk": "file:./packages/deferred-linking-sdk"
+    "deferred-linking-sdk": "Sherby1988/DeferredLinking-RN-SDK"
   }
 }
-```
-
-```bash
-npm install
 ```
 
 ### 2. Install the peer dependency

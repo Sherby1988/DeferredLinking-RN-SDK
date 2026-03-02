@@ -1,0 +1,31 @@
+{
+  "name": "deferred-linking-sdk",
+  "version": "1.0.0",
+  "description": "React Native SDK for Deferred Linking Platform",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react-native",
+    "deep-linking",
+    "deferred-linking"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@react-native-async-storage/async-storage": ">=1.0.0",
+    "react-native": ">=0.70.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/__tests__/**/*.test.js"
+    ]
+  }
+}
